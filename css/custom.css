@@ -57,7 +57,7 @@ body {
 
 /* Sidebar menu button */
 button.menu__button {
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 /* ==========================================================================
@@ -75,7 +75,7 @@ button.menu__button {
 }
 
 .navbar__inner a.navbar__item svg[class^="iconExternalLink"] {
-  display: none
+  display: none;
 }
 
 /*  Contribute button */
@@ -120,7 +120,7 @@ button.menu__button {
 }
 
 .DocSearch.DocSearch-Button:hover .DocSearch-Search-Icon {
-  color: var(--secondaryColor)
+  color: var(--secondaryColor);
 }
 
 .DocSearch.DocSearch-Button .DocSearch-Button-Placeholder {
@@ -156,12 +156,20 @@ button.menu__button {
   color: var(--secondaryColor);
 }
 
-.navbar__inner .navbar__item:last-child .dropdown__menu > li a.dropdown__link--active {
+.navbar__inner
+  .navbar__item:last-child
+  .dropdown__menu
+  > li
+  a.dropdown__link--active {
   color: var(--blackColor);
   background-color: white;
 }
 
-.navbar__inner .navbar__item:last-child .dropdown__menu > li a.dropdown__link--active:hover {
+.navbar__inner
+  .navbar__item:last-child
+  .dropdown__menu
+  > li
+  a.dropdown__link--active:hover {
   color: var(--ifm-color-primary);
 }
 
@@ -180,7 +188,7 @@ button.menu__button {
 }
 
 .homeContainer a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .text-dark {
@@ -264,12 +272,15 @@ button.menu__button {
 
 .homeFooterContainer {
   padding: 6rem 0 4rem;
-  background-image: linear-gradient(217deg, rgba(196, 0, 97, 0.8), rgba(196, 0, 97, 0) 70%),
+  background-image: linear-gradient(
+      217deg,
+      rgba(196, 0, 97, 0.8),
+      rgba(196, 0, 97, 0) 70%
+    ),
     linear-gradient(127deg, rgba(230, 0, 122, 0.8), rgba(230, 0, 122, 0) 70%),
     linear-gradient(336deg, rgba(103, 69, 210, 0.7), rgba(103, 69, 210, 0) 70%);
   background-color: #e6007a;
 }
-
 
 .homeFooterContainer .col-lg-6 {
   display: flex;
@@ -293,29 +304,30 @@ button.menu__button {
 .docs-wrapper {
   max-width: var(--custom-content-max-width);
   margin: 0 auto;
-  padding-bottom: 80px
+  padding-bottom: 80px;
 }
 
 article blockquote {
-  background-color: rgba(255,229,100,.3);
+  background-color: rgba(255, 229, 100, 0.3);
   border-left: 8px solid #ffe564;
 }
 
-article img, article iframe {
+article img,
+article iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%
+  max-width: 100%;
 }
 
 /* two following style is a workaround to prevent the code blocks expand in mobile */
 
 .prism-code {
-  background-color: var(--custom-code-block-background) !important
+  background-color: var(--custom-code-block-background) !important;
 }
 
 .prism-code > div {
-  width: 100px !important
+  width: 100px !important;
 }
 
 /* Table of content */
