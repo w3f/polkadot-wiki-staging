@@ -651,8 +651,3 @@ footer .list-social-links a {
   margin: 1px;
   margin-left: 5px;
 }
-
-html[data-theme='dark'] {
-  --ifm-background-color: #1e2125;
-  --ifm-background-surface-color: #121212;
-}
